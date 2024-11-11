@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SitDownPls - Каталог</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</head>
+<body class="pg-catalogs">
+    //= templates/header.html
+    <main>
+        <h1 class="hide">Каталог</h1>
+        <div class="breadcrumb container">
+            <ul class="breadcrumb__items">
+                <li class="breadcrumb__item"><a href="/" class="breadcrumb__item-link" aria-label="Навигация">Главная</a></li>
+                <li class="breadcrumb__item"><a href="/catalog.html" class="breadcrumb__item-link" aria-label="Навигация">Каталог</a></li>
+                <li class="breadcrumb__item"><a href="/catalog.html" class="breadcrumb__item-link" aria-label="Навигация">Диваны</a></li>
+                <li class="breadcrumb__item">Прямые&nbsp;диваны</li>
+            </ul>
+        </div>
+        <section class="offer-group grid container">
+            <h3 class="offer-group__header">Каталог</h3>
+            <div class="filter">
+                <div class="filter__sets">
+                    <div class="filter__head">Фильтровать по:</div>
+                    <div class="filter__type">
+                        <div class="filter__type-head">Цвет</div>
+                        <ul class="filter__type-items">
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="color" class="agrement-checkbox hide" aria-label="Выбор цвета">
+                                    <span class="agrement-check">Коричневый</span>
+                                </label>
+                            </li>
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="color" checked class="agrement-checkbox hide" aria-label="Выбор цвета">
+                                    <span class="agrement-check">Черный</span>
+                                </label>
+                            </li>
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="color" class="agrement-checkbox hide" aria-label="Выбор цвета">
+                                    <span class="agrement-check">Синий</span>
+                                </label>
+                            </li>
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="color" class="agrement-checkbox hide" aria-label="Выбор цвета">
+                                    <span class="agrement-check">Белый</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__type">
+                        <div class="filter__type-head">Категория</div>
+                        <ul class="filter__type-items">
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="type" checked class="agrement-checkbox hide" aria-label="Выбор категории">
+                                    <span class="agrement-check">Диваны</span>
+                                </label>
+                            </li>
+                            <li class="filter__type-item">
+                                <label>
+                                    <input type="checkbox" name="type" class="agrement-checkbox hide" aria-label="Выбор категории">
+                                    <span class="agrement-check">Кресла</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__type">
+                        <div class="filter__type-head">Цена</div>
+                        <div class="filter__search">
+                            <span class="filter__search-span">oт</span>
+                            <label>
+                                <input type="text" class="filter__search-input" value="2000" aria-label="Минимальная цена">
+                            </label>
+                            <span>до</span>
+                            <label>
+                                <input type="text" class="filter__search-input" value="150000" aria-label="Максимальная цена">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter__adver">
+                    <img src="./images/oxford.svg" alt="Oxford" class="filter__adver-head">
+                    <p class="filter__adver-text">Новая коллекция изысканных кресел</p>
+                    <div class="filter__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="offer slides">
+                <div class="swiper">
+                    <ul class="swiper-wrapper offer__cards col-3 special grid">
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_1 product-card slide">
+                                <div class="product-card__star">5,0</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-1.png" class="product-card__image" alt="Диван R-94">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван кожаный “R&#8209;94”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">94 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_2 product-card slide">
+                                <div class="product-card__star">4,9</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-2.png" class="product-card__image" alt="Диван T-75">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван апартековый “T&#8209;75”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">69 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_3 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-3.png" class="product-card__image" alt="Диван D-31">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван тканевый “D&#8209;31”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">28 490 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_4 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-4.png" class="product-card__image" alt="Диван Y-68">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван велюровый “Y&#8209;68”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">22 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_5 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-5.png" class="product-card__image" alt="Диван W-95">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван из&nbsp;шинила “W&#8209;95”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">22 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_6 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-6.png" class="product-card__image" alt="Диван G-41">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван флоковый “G&#8209;41”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">17 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_7 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-7.png" class="product-card__image" alt="Диван V-43">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван шиниловый “V&#8209;43”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">19 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_8 product-card slide">
+                                <div class="product-card__star">4,7</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-8.png" class="product-card__image" alt="Диван S-99">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван велюровый “S&#8209;99”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">19 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_9 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-5.png" class="product-card__image" alt="Диван W-95">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван из&nbsp;шинила “W&#8209;95”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">22 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_10 product-card slide">
+                                <div class="product-card__star">4,7</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-9.png" class="product-card__image" alt="Диван G-41">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван из кожзама “F&#8209;85”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">26 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_1 product-card slide">
+                                <div class="product-card__star">5,0</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-1.png" class="product-card__image" alt="Диван R-94">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван кожаный “R&#8209;94”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">94 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_2 product-card slide">
+                                <div class="product-card__star">4,9</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-2.png" class="product-card__image" alt="Диван T-75">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван апартековый “T&#8209;75”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">69 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </liv>
+                        <li class="swiper-slide">
+                            <div class="offer__card offer__card_3 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-3.png" class="product-card__image" alt="Диван D-31">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван тканевый “D&#8209;31”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">28 490 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_4 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-4.png" class="product-card__image" alt="Диван Y-68">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван велюровый “Y&#8209;68”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">22 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_5 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-5.png" class="product-card__image" alt="Диван W-95">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван из&nbsp;шинила “W&#8209;95”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">22 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_6 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-6.png" class="product-card__image" alt="Диван G-41">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван флоковый “G&#8209;41”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">17 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_7 product-card slide">
+                                <div class="product-card__star">4,8</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-7.png" class="product-card__image" alt="Диван V-43">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван шиниловый “V&#8209;43”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">19 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </li>
+                        <li class="swiper-slide">    
+                            <div class="offer__card offer__card_8 product-card slide">
+                                <div class="product-card__star">4,7</div>
+                                <div class="product-card__image-wrap product-card__image-wrap_small">
+                                    <img src="./images/offer/offer-8.png" class="product-card__image" alt="Диван S-99">
+                                </div>
+                                <div class="product-card__desc">
+                                    <h3>Диван велюровый “S&#8209;99”</h3>
+                                    <div>
+                                        <div class="product-card__price-wrap">
+                                            <span class="product-card__price">19 990 руб</span>
+                                        </div>
+                                        <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div> 
+            </div>
+            <div class="page">
+                <div class="swiper-pagination page"></div>
+            </div>
+        </section>
+    </main>
+    //= templates/footer.html
+</body>
+</html>

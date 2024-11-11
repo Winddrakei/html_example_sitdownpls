@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SitDownPls</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <script type="module" src="./main.js"></script>
+</head>
+
+<body class="index">
+    //= templates/header.html
+    <main>
+        <h1 class="hide">Главная</h1>
+        <section class="hero">
+            <div class="hero__wrap container">
+                <h2 class="hero__desc">Скидка 15% на первую покупку</h2>
+                <div class="primary-wrap">
+                    <a href="#" class="primary-btn" aria-label="Кнопка">Получить!</a>
+                </div>
+            </div>
+        </section>
+        <section class="special container">
+            <h2>Специальные предложения</h2>
+            <ul class="special__cards grid">
+                <li class="special__card special__card_1 product-card">
+                    <div class="product-card__flag">- 9 000</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-1.png" class="product-card__image" alt="Кресло X-24">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Кресло велюровое “X&#8209;24”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">15 990 руб</span>
+                                <span class="product-card__price product-card__price_old">24 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="special__card special__card_2 product-card">
+                    <div class="product-card__flag">- 10 000</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-2.png" class="product-card__image" alt="Диван Z-44">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван тканевый “Z&#8209;44”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">22 990 руб</span>
+                                <span class="product-card__price product-card__price_old">32 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                    <img src="./images/special/special-2a.png" class="product-card__image-abs" alt="Диван Z-44">
+                </li>
+                <li class="special__card special__card_3 product-card">
+                    <div class="product-card__flag">- 600</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-3.png" class="product-card__image" alt="Будильник Quartz-23">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Будильник “Quartz&#8209;23”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">1 290 руб</span>
+                                <span class="product-card__price product-card__price_old">1 890 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="special__card special__card_4 product-card">
+                    <div class="product-card__flag">- 300</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-4.png" class="product-card__image" alt="Мини-скульптура">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Мини-скульптура “Oh my deer”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">690 руб</span>
+                                <span class="product-card__price product-card__price_old">990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="special__card special__card_5 product-card">
+                    <div class="product-card__flag">- 10 000</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-5.png" class="product-card__image" alt="Диван Z-85">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван вел-флок “Z&#8209;85”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">22 990 руб</span>
+                                <span class="product-card__price product-card__price_old">32 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="special__card special__card_6 product-card">
+                    <div class="product-card__flag">- 700</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_big">
+                        <img src="./images/special/special-6.png" class="product-card__image" alt="Термометр H-18">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Термометр + гидрометр “H&#8209;18”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price product-card__price_new">1 390 руб</span>
+                                <span class="product-card__price product-card__price_old">2 090 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="offer container">
+            <h2>Высокий рейтинг</h2>
+            <ul class="offer__cards col-4 grid">
+                <li class="offer__card offer__card_1 product-card">
+                    <div class="product-card__star">5,0</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-1.png" class="product-card__image" alt="Диван R-94">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван кожаный “R&#8209;94”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">94 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_2 product-card">
+                    <div class="product-card__star">4,9</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-2.png" class="product-card__image" alt="Диван T-75">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван апартековый “T&#8209;75”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">69 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_3 product-card">
+                    <div class="product-card__star">4,8</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-3.png" class="product-card__image" alt="Диван D-31">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван тканевый “D&#8209;31”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">28 490 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_4 product-card">
+                    <div class="product-card__star">4,8</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-4.png" class="product-card__image" alt="Диван Y-68">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван велюровый “Y&#8209;68”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">22 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_5 product-card">
+                    <div class="product-card__star">4,8</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-5.png" class="product-card__image" alt="Диван W-95">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван из&nbsp;шинила “W&#8209;95”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">22 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_6 product-card">
+                    <div class="product-card__star">4,8</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-6.png" class="product-card__image" alt="Диван G-41">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван флоковый “G&#8209;41”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">17 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_7 product-card">
+                    <div class="product-card__star">4,8</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-7.png" class="product-card__image" alt="Диван V-43">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван шиниловый “V&#8209;43”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">19 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="offer__card offer__card_8 product-card">
+                    <div class="product-card__star">4,7</div>
+                    <div class="product-card__image-wrap product-card__image-wrap_small">
+                        <img src="./images/offer/offer-8.png" class="product-card__image" alt="Диван S-99">
+                    </div>
+                    <div class="product-card__desc">
+                        <h3>Диван велюровый “S&#8209;99”</h3>
+                        <div>
+                            <div class="product-card__price-wrap">
+                                <span class="product-card__price">19 990 руб</span>
+                            </div>
+                            <a href="/card.html" class="secondary-btn" aria-label="Кнопка">Купить</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="adver">
+            <div class="adver__wrap container">
+                <img src="./images/oxford.svg" class="adver__img" alt="Oxford 1950">
+                <div class="adver__desc">Новая коллекция изысканных кресел</div>
+                <div class="primary-wrap">
+                    <a href="#" class="primary-btn" aria-label="Кнопка">Ознакомиться</a>
+                </div>
+            </div>
+        </section>
+        <section class="categories container">
+            <h2>Топ категории</h2>
+            <ul class="categories__cards grid">
+                <li class="categories__card categories__card_1 cat-card">
+                    <div class="cat-card__about">
+                        <div class="cat-card__about-items">
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Прямые</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Угловые</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Модульные</a>
+                        </div>
+                        <h3>Диваны<a href="#" class="link-arrow"><span class="link-arrow__text"></span></a></h3>
+                    </div>
+                    <img src="/images/cat-1.png" class="cat-card__image" alt="Диван">
+                    <div class="cat-card__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span
+                                class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </li>
+                <li class="categories__card categories__card_2 cat-card">
+                    <div class="cat-card__about">
+                        <div class="cat-card__about-items">
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Мягкие</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Кресла-кровати</a>
+                        </div>
+                        <h3>Кресла<a href="#" class="link-arrow"><span class="link-arrow__text"></span></a></h3>
+                    </div>
+                    <img src="/images/cat-2.png" class="cat-card__image" alt="Кресло">
+                    <div class="cat-card__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span
+                                class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </li>
+                <li class="categories__card categories__card_3 cat-card">
+                    <div class="cat-card__about">
+                        <div class="cat-card__about-items">
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Односпальные</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Двуспальные</a>
+                        </div>
+                        <h3>Кровати<a href="#" class="link-arrow"><span class="link-arrow__text"></span></a></h3>
+                    </div>
+                    <img src="/images/cat-3.png" class="cat-card__image" alt="Кровать">
+                    <div class="cat-card__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span
+                                class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </li>
+                <li class="categories__card categories__card_4 cat-card">
+                    <div class="cat-card__about">
+                        <div class="cat-card__about-items">
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Тумбы</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Комоды</a>
+                        </div>
+                        <h3>Тумбы и&nbsp;комоды<a href="#" class="link-arrow"><span class="link-arrow__text"></span></a>
+                        </h3>
+                    </div>
+                    <img src="/images/cat-4.png" class="cat-card__image" alt="Тумбы и комоды">
+                    <div class="cat-card__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span
+                                class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </li>
+                <li class="categories__card categories__card_5 cat-card">
+                    <div class="cat-card__about">
+                        <div class="cat-card__about-items">
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Деревянные</a>
+                            <a href="/catalog.html" class="cat-card__about-item nav-link"
+                                aria-label="Перейти в раздел">Металлокаркас</a>
+                        </div>
+                        <h3>Стулья<a href="#" class="link-arrow"><span class="link-arrow__text"></span></a></h3>
+                    </div>
+                    <img src="/images/cat-5.png" class="cat-card__image" alt="Стулья">
+                    <div class="cat-card__link-wrap">
+                        <a href="#" class="link-arrow" aria-label="Кнопка"><span
+                                class="link-arrow__text">В&nbsp;каталог</span></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="useful container">
+            <h2>Полезное</h2>
+            <ul class="useful__cards grid">
+                <li class="useful__card useful__card_1">
+                    <img src="./images/useful/useful-1.jpg" class="useful__card-img" alt="Иллюстрация">
+                    <div class="useful__card-desc-wrap">
+                        <div class="useful__card-desc">И нет сомнений, что сделанные на базе интернет&#8209;аналитики
+                            выводы представляют собой не что иное?</div>
+                        <a href="#" class="secondary-btn" aria-label="Кнопка">Читать</a>
+                    </div>
+                </li>
+                <li class="useful__card useful__card_2">
+                    <img src="./images/useful/useful-2.jpg" class="useful__card-img" alt="Иллюстрация">
+                    <div class="useful__card-desc-wrap">
+                        <div class="useful__card-desc">Как принято считать, некоторые особенности приносят несомненную
+                            пользу обществу?</div>
+                        <a href="#" class="secondary-btn" aria-label="Кнопка">Читать</a>
+                    </div>
+                </li>
+                <li class="useful__card useful__card_3">
+                    <img src="./images/useful/useful-3.jpg" class="useful__card-img" alt="Иллюстрация">
+                    <div class="useful__card-desc-wrap">
+                        <div class="useful__card-desc">Ясность нашей позиции очевидна: укрепление и развитие внутренней
+                            структуры?</div>
+                        <a href="#" class="secondary-btn" aria-label="Кнопка">Читать</a>
+                    </div>
+                </li>
+                <li class="useful__card useful__card_4">
+                    <img src="./images/useful/useful-4.jpg" class="useful__card-img" alt="Иллюстрация">
+                    <div class="useful__card-desc-wrap">
+                        <div class="useful__card-desc">Прежде всего, консультация с широким активом однозначно фиксирует
+                            необходимость распределения?</div>
+                        <a href="#" class="secondary-btn" aria-label="Кнопка">Читать</a>
+                    </div>
+                </li>
+                <li class="useful__card useful__card_5">
+                    <img src="./images/useful/useful-5.jpg" class="useful__card-img" alt="Иллюстрация">
+                    <div class="useful__card-desc-wrap">
+                        <div class="useful__card-desc">Как принято считать, некоторые особенности приносят несомненную
+                            пользу обществу?</div>
+                        <a href="#" class="secondary-btn" aria-label="Кнопка">Читать</a>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section class="home container">
+            <div class="home__cards grid">
+                <div class="home__card">
+                    <div class="home__card-head">Мы всегда вам рады!</div>
+                    <span class="home__card-desc">Безусловно, новая модель организационной деятельности
+                        в&nbsp;значительной степени обусловливает важность распределения внутренних резервов
+                        и&nbsp;ресурсов.</span>
+                    <form action="#" method="post">
+                        <input type="text" class="home__input" name="name" placeholder="Как вас зовут?">
+                        <input type="tel" class="home__input" name="phone" placeholder="Ваш телефон">
+                        <input type="email" class="home__input" name="name" placeholder="Ваш e-mail">
+                        <a href="#" class="primary-btn" aria-label="Кнопка">Отправить</a>
+                        <label class="agrement">
+                            <input type="checkbox" name="agree" checked class="agrement-checkbox hide"><span
+                                class="agrement-check">Принимаю <a href="" class="agrement-link">пользовательское
+                                    соглашение</a></span>
+                        </label>
+                    </form>
+                </div>
+                <div class="home__card home__card_picture">
+                    <picture>
+                        <source media="(max-width: 996px)" srcset="./images/home_mob.png">
+                        <img src="./images/home.png" class="home__card-img" alt="Home">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+    //= templates/footer.html
+</body>
+
+</html>
